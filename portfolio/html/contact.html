@@ -5,31 +5,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 
 <body>
-    <form method="GET">
-        First name: <input type="text" name="firstname" required>
-        Last name: <input type="text" name="lasstname" required><br>
-        Email: <input type="email" required>
-        Company: <input type="text"><br>
-        <br>
-        Reason for contact:<br>
-        <input type="radio" name="reason for contact">Project<br>
-        <input type="radio" name="reason for contact">Thesis<br>
-        <input type="radio" name="reason for contact">Job<br>
-        <br>
-        Services:<br>
-        <input type="checkbox" required>Webdev<br>
-        <input type="checkbox" required>ML<br>
-        <input type="checkbox" required>Networking<br>
-        <br>
-        Book an appointment:<br>
-        <input type="date" placeholder="Book an appointment"><br>
-        <br>
+    <ul>
+        <a href="../index.html">Home Page</a>
 
-        <button type="submit">Submit</button>
-        <button type="reset">Reset</button><br>
+        <a href="../html/education.html">Education</a>
+
+        <a href="../html/project.html">Projects</a>
+
+        <a href="../html/project.html">Projects</a>
+
+    </ul>
+    <br>
+    <br>
+    <h1>Contact Me</h1>
+    <br>
+
+    <form method="GET">
+
+        <div id="div1">
+            First name: <input type="text" name="firstname" required><br>
+            <br>
+            Last name: <input type="text" name="lastname" required><br>
+            <br>
+            Email: <input type="email" name="email" required><br>
+            <br>
+            Company: <input type="text" name="company"><br>
+            <br>
+        </div>
+        <div id="div2">
+            Reason for contact:<br>
+            <input type="radio" name="reason for contact">Project<br>
+            <input type="radio" name="reason for contact">Thesis<br>
+            <input type="radio" name="reason for contact">Job<br>
+            <br>
+        </div>
+        <div id="div3">
+            Services:<br>
+            <input type="checkbox" required>Webdev<br>
+            <input type="checkbox" required>ML<br>
+            <input type="checkbox" required>Networking<br>
+            <br>
+        </div>
+        <div id="div4">
+            Book an appointment:<br>
+            <input type="date" placeholder="Book an appointment"><br>
+            <br>
+        </div>
+        <div id="div5">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button><br>
+        </div>
+
+        <hr>
 
     </form>
 </body>
