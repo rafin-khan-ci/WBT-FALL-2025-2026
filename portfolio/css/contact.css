@@ -30,8 +30,12 @@ ul a:hover {
 
 h1 {
     text-align: center;
-    margin: 5px 0;
+    margin: auto;
     color: #333;
+    border-bottom: 3px solid #333;
+    padding-bottom: 10px;
+    width: 20%;
+
 }
 
 form {
@@ -57,18 +61,22 @@ form {
 
 #div1 input[name="firstname"] {
     margin-left: 15px;
+    width: 50%;
 }
 
 #div1 input[name="lastname"] {
     margin-left: 15px;
+    width: 50%;
 }
 
 #div1 input[name="email"] {
     margin-left: 50px;
+    width: 50%;
 }
 
 #div1 input[name="company"] {
     margin-left: 21px;
+    width: 50%;
 }
 
 
