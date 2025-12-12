@@ -3,7 +3,7 @@
 <body>
 
 <?php
-// Function to display form results with colors
+
 function showResult($formName, $isValid, $value = '', $errors = []) {
     $color = $isValid ? 'green' : 'red';
     echo "<p style='color:$color;'><strong>$formName:</strong> ";
@@ -19,7 +19,7 @@ function showResult($formName, $isValid, $value = '', $errors = []) {
 }
 ?>
 
-<!-- Form 1: Name Validation -->
+
 <h3>1. Name</h3>
 <form method="POST">
     NAME <input type="text" name="name" value="<?php echo isset($_POST['name']) ? htmlspecialchars($_POST['name']) : ''; ?>">
@@ -58,7 +58,7 @@ if (isset($_POST['submit_name'])) {
 
 <hr>
 
-<!-- Form 2: Email Validation -->
+
 <h3>2. Email</h3>
 <form method="POST">
     EMAIL <input type="text" name="email" value="<?php echo isset($_POST['email']) ? htmlspecialchars($_POST['email']) : ''; ?>">
@@ -87,7 +87,7 @@ if (isset($_POST['submit_email'])) {
 
 <hr>
 
-<!-- Form 3: Date of Birth Validation -->
+
 <h3>3. Date of Birth</h3>
 <form method="POST">
     DATE OF BIRTH 
@@ -137,7 +137,7 @@ if (isset($_POST['submit_dob'])) {
 
 <hr>
 
-<!-- Form 4: Gender Validation -->
+
 <h3>4. Gender</h3>
 <form method="POST">
     <input type="radio" name="gender" value="Male" <?php echo (isset($_POST['gender']) && $_POST['gender'] == 'Male') ? 'checked' : ''; ?>> Male<br>
@@ -163,7 +163,7 @@ if (isset($_POST['submit_gender'])) {
 
 <hr>
 
-<!-- Form 5: Degree Validation -->
+
 <h3>5. Degree</h3>
 <form method="POST">
     <input type="checkbox" name="degrees[]" value="SSC" <?php echo (isset($_POST['degrees']) && in_array('SSC', $_POST['degrees'])) ? 'checked' : ''; ?>> SSC<br>
@@ -191,7 +191,6 @@ if (isset($_POST['submit_degree'])) {
 
 <hr>
 
-<!-- Form 6: Blood Group Validation -->
 <h3>6. Blood Group</h3>
 <form method="POST">
     <select name="blood_group">
