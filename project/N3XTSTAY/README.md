@@ -1,6 +1,6 @@
 # 🏨 N3XTSTAY - Hotel Booking System
 
-A modern, full-featured hotel booking system built with PHP, MySQL, and vanilla JavaScript. Features a beautiful gradient UI, secure authentication, payment processing, and comprehensive booking management.
+A modern, full-featured hotel booking system built with HTML, CSS, PHP, MySQL, and JavaScript. Features a beautiful gradient UI, secure authentication, payment processing, and comprehensive booking management.
 
 ## ✨ Features
 
